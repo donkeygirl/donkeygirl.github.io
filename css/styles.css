@@ -1,0 +1,197 @@
+/***************** TAG selector *****************/
+body{
+  margin: 0;
+  background-color: #1a1a12;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+/* body{
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #F0E9D2;
+    background-image: linear-gradient(335deg, #E6DDC4 23px, transparent 23px),
+      linear-gradient(155deg, #E6DDC4 23px, transparent 23px),
+      linear-gradient(335deg, #E6DDC4 23px, transparent 23px),
+      linear-gradient(155deg, #E6DDC4 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+} */
+h1, h2{   
+  color:#8f8f8f;
+  font-family: 'Nanum Brush Script', cursive;
+}
+h3, h4, h5, p{
+  color:wheat;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.second-heading{  
+     margin-left: 13%;
+}
+/***nav and background image***/
+.laptop{
+  max-width: 100%;
+  aspect-ratio: 7/3.2;
+}
+.kun_logo{
+  width: 80px;
+  height: 50px;
+}
+.navbar-brand {  
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 2rem;
+  font-style: italic;
+}
+.navbar-text {
+  color: white!important;
+  font-size: 2rem;
+}
+.navbar-text:hover{
+  text-decoration: underline;
+}
+/*************/
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+/**************/
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #f3f5f7;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+.arrow-down span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+/* section */
+#proiecte .container-fluid{
+  padding: 5% 15%;
+  text-align: center;  
+}
+.project-images{
+  width: 80%;
+}
+.project-text{
+  width:100px;
+  color:Gray;
+  white-space: pre-wrap;
+  font-size:14px;
+}
+/*************/
+#introducere{
+  text-align: center;
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#skiluri{
+  text-align: center;
+}
+.logo-size{
+  width: 50px;
+  height: 50px;
+}
+/*******for image explation*******/
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  inset: 2px;  
+  display: none;
+}
+
+figure:hover figcaption {
+  display: flex;
+}
+
+
+/* for visualization only */
+figure {
+  display: inline-block;
+}
+
+figcaption {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/****************/
+#contact_me{
+  padding: 5% 10%;
+}
+#contact_me .icons{
+  padding: 5%;
+}
+#footer{
+  /* position: relative; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
